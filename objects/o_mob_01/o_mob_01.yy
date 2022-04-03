@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "s_mob_01_idle",
+    "path": "sprites/s_mob_01_idle/s_mob_01_idle.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "o_parent_enemy",
+    "path": "objects/o_parent_enemy/o_parent_enemy.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"scoreValue","path":"objects/o_parent_enemy/o_parent_enemy.yy",},"objectId":{"name":"o_parent_enemy","path":"objects/o_parent_enemy/o_parent_enemy.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "o_mob_01",
+  "tags": [],
+  "resourceType": "GMObject",
+}

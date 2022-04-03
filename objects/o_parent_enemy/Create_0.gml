@@ -1,0 +1,11 @@
+hSpeed = 0;
+vSpeed = 0;
+flash = 0;
+state = ENEMYSTATE.FREE;
+firingDelay = 0;
+alarmCounter = 0;
+//path finding variables
+path = path_add();
+alarm[1] = 60;
+targetX = 0;
+targetY = 0;
