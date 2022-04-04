@@ -6,4 +6,5 @@ global.grid = mp_grid_create(0, 0, room_width/(TILE_SIZE/4), room_height/TILE_SI
 //add instance to grid
 mp_grid_add_instances(global.grid, o_parent_col, true);
 
-
+global.score = 0;
+global.kills = 0;

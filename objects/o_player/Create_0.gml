@@ -9,6 +9,7 @@ hp = 10;
 dmg = 2;
 invulnerable = 0;
 flash = 0;
+hpColldown = 0;
 
 //sprites
 spriteIdle = s_player_idle;

@@ -1,5 +1,6 @@
 draw_self();
 if(flash > 0) {
+	audio_play_sound(sfx_enemy_hurt, 100, false);
 	shader_set(sh_flash_white);
 	draw_self();
 	shader_reset();

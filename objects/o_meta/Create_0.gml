@@ -7,6 +7,7 @@ global.grid = noone;
 
 //score and gui
 global.score = 0;
+global.kills = 0;
 
 //controls
 global.keyleft = noone;
@@ -20,4 +21,6 @@ global.gamePause = false;
 global.iCam = instance_create_layer(0, 0, "Instances", o_camera);//creates camera
 global.iGui = instance_create_layer(0, 0, "Instances", o_gui);//creates camera
 
-room_goto(ROOM_START);
+window_set_fullscreen(true);//set fullscreen
+
+room_goto(ROOM_START);//transition

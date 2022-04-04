@@ -7,5 +7,10 @@ if(!global.gamePause) {
 	script_execute(state);
 	invulnerable = max(0, invulnerable - 1);
 	flash = max(0, flash - 1);
+	hpColldown = max(0, hpColldown - 1);
+	
+	if(hpColldown == 0) && (hp <= 8)  {
+		hp = 10;
+	}//end if
 }//end if
 

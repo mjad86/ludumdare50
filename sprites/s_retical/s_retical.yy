@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Sprites/Projectiles.yy",
+    "name": "Misc",
+    "path": "folders/Sprites/Misc.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_retical",

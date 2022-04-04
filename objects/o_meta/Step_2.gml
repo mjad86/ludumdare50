@@ -1,6 +1,6 @@
 //pausing game
 
-if(keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_escape)) {
+if(keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_escape)) && (room == r_lvl1) {
 	global.gamePause = !global.gamePause;
 	
 	if(global.gamePause) {
@@ -16,5 +16,14 @@ if(keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_escape)) {
 			speed = gamePauseSpd;
 			image_speed = gamePausedImageSpd;
 		}//end with
+	}//end else
+}//end if
+
+if(keyboard_check_pressed(vk_anykey)) {
+	if (room == ROOM_START) {
+		room_goto(r_tutorial);
+	}//end if
+	if (room == r_tutorial) {
+		room_goto(r_lvl1);
 	}//end else
 }//end if

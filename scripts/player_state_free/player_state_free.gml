@@ -26,9 +26,11 @@ function player_state_free(){
 			image_angle = direction;
 		}//end with
 		if(inputMagnitude != 0) {
+			audio_play_sound(sfx_player_shoot, 100, false);
 			state = player_shoot_moving;
 		}//end if
 		else {
+			audio_play_sound(sfx_player_shoot, 100, false);
 			state = player_shoot_still;
 		}//end else
 	}//end if

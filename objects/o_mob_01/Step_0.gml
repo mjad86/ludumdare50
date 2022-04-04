@@ -43,12 +43,13 @@ if(!global.gamePause) {
 			if(sprite_index != spriteAttack) {
 				image_index = 0;
 				sprite_index = spriteAttack;
+				audio_play_sound(sfx_enemy_shoot, 100, false);
 			}//end if
 			if (firingDelay <= 0) {
 				firingDelay = random_range(90, 180);
 				with(instance_create_layer(x, y, "projectiles", o_green_projectile)) {
 					//creation of projectile
-					speed = 5;
+					speed = 4;
 					direction = point_direction(other.x, other.y, o_player.x, o_player.y);
 					image_angle = direction;
 				}//end with

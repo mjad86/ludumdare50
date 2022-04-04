@@ -3,4 +3,6 @@ with(other) {
 	flash = 3;
 }//end with
 
+audio_play_sound(sfx_hurt, 100, false);
+
 instance_destroy();
